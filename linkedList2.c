@@ -25,6 +25,21 @@ namespace LinkedList
             }
             }
 
+            public void AddToBeginning(int data)
+            {
+                if (headNode == null)
+                {
+                    headNode = new Node(data);
+                }
+                else
+                {
+                    Node temp = new Node(data);
+                    temp.next = headNode;
+                    headNode = temp;
+                }
+            }
+
+
             public void Print()
             {
                 if (headNode != null)
@@ -39,10 +54,14 @@ namespace LinkedList
         static void Main(string[] args)
         {
             MyList list = new MyList();
-             myNode.AddToEnd(9);
-             myNode.AddToEnd(5);
-             myNode.AddToEnd(7);
-             myNode.AddToEnd(11);
+            //  myNode.AddToEnd(9);
+            //  myNode.AddToEnd(5);
+            //  myNode.AddToEnd(7);
+            //  myNode.AddToEnd(11);
+             myNode.AddToBeginning(9);
+             myNode.AddToBeginning(5);
+             myNode.AddToBeginning(7);
+             myNode.AddToBeginning(11);
              list.Print();
 
         }
