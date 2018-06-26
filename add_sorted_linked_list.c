@@ -33,4 +33,9 @@ namespace LinkedList
                 temp.next = this.next;
                 this.next = temp;
             }
+            else
+            {
+                next.AddToEnd(data);
+            }
       }
+
