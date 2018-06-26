@@ -39,3 +39,15 @@ namespace LinkedList
             }
       }
 
+public void AddToEnd(int data)
+{
+    if (next == null)
+    {
+        next = new Node(data);
+    }
+    else
+    {
+        next.AddToEnd(data);
+    }
+}
+}
