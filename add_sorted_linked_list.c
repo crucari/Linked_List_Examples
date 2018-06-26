@@ -50,4 +50,27 @@ public void AddToEnd(int data)
         next.AddToEnd(data);
     }
 }
+)
+public class MyList
+{
+    public Node headNode;
+
+    public MyList()
+    {
+        headNode = null;
+    }
+
+public void AddToEnd(int data)
+{
+    if (headNode == null)
+    {
+        headNode = new Node(data);
+    }
+    else
+    {
+        headNode.AddToEnd(data)
+    }
+}
+
+public void
 }
