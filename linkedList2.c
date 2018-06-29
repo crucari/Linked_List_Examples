@@ -58,7 +58,7 @@ namespace LinkedList
             //  myNode.AddToEnd(5);
             //  myNode.AddToEnd(7);
             //  myNode.AddToEnd(11);
-             myNode.AddToBeginning(9);
+             myNode.AddToBeginning(9);  //input numbers
              myNode.AddToBeginning(5);
              myNode.AddToBeginning(7);
              myNode.AddToBeginning(11);
