@@ -60,7 +60,8 @@ namespace LinkedList
             //  myNode.AddToEnd(11);
              myNode.AddToBeginning(9);  //input numbers
              myNode.AddToBeginning(5);
-             myNode.AddToBeginning(7);
+             myNode.AddToBeginning(7);  //add to the beginning
+
              myNode.AddToBeginning(11);
              list.Print();
 
