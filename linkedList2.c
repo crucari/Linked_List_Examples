@@ -40,7 +40,7 @@ namespace LinkedList
             }
 
 
-            public void Print()
+            public void Print()  //print
             {
                 if (headNode != null)
                 {
