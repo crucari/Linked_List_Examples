@@ -34,7 +34,7 @@ namespace LinkedList
                 else
                 {
                     Node temp = new Node(data);
-                    temp.next = headNode;
+                    temp.next = headNode; //headnode
                     headNode = temp;
                 }
             }
